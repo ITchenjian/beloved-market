@@ -1,0 +1,257 @@
+/*第二部分 LOGO*/
+.logo{
+    height:110px;
+}
+.logo .beloved{
+    margin-top:23px;
+    margin-left:2px;
+}
+.logo h1{
+    font-size: 32px;
+    color:#e01135;
+    margin-top:36px;
+    margin-left:18px;
+}
+.logo .box{
+    width:666px;
+    height:110px;
+}
+.logo .box a{
+    color:#8e8e8e;
+}
+.logo .box .search{
+    width:442px;
+    height:36px;
+    border:1px solid #dfdfdf;
+    margin-top:45px;
+}
+.box .search a{
+    display: inline-block;
+    width: 51px;
+    padding:0 0 0 11px;
+    height:36px;
+    line-height: 36px;
+    font-size: 13px; 
+    background: url(../images/shopaccount/倒三角.png) no-repeat 45px center;   
+    vertical-align: middle;
+}
+.box .search input,.box .search button{
+    height: 36px;
+    border:none;
+    background: none;
+    vertical-align: middle;
+}
+.box .search input{
+    width:313px;
+    line-height: 36px;
+    margin:0 -5px 0 -4px;
+    border-left:1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+}
+.box .search button{
+    width: 65px;
+}
+.box .owner{
+    width:176px;
+    height:36px;
+    line-height: 36px;
+    border:1px solid #dfdfdf;
+    margin-right:8px;
+    margin-top:45px;
+    padding:0 0 0 16px;
+    position: relative;
+}
+.box .owner .message{
+    position: absolute;
+    top:-15px;
+    right: 26px;
+}
+.box .owner span{
+    margin:0 13px 0 15px;
+    color:#cccccc;
+}
+.box .owner a{
+    padding-right:17px;
+    background:url(../images/shopaccount/倒三角.png) no-repeat right center;
+}
+/*第三部分 导航栏*/
+.nav{
+    height:40px;
+    background-color:#645858;
+}
+.nav ul{
+    padding:0px;
+}
+.nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    *display: inline;
+    
+}
+.nav ul li #a1{
+    background-color: #e01135;
+    letter-spacing:0px;
+}
+.nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    display: inline-block;
+    line-height:40px;
+    width:90px;
+    margin-right:-7px;
+    border-right:1px solid #6d6261;
+    font-family: "微软雅黑";
+    font-size:15px;
+    letter-spacing:30px;
+    padding-left:30px;
+}
+.nav ul li a:hover{
+    color:#fff !important;
+    background: #e01135;
+}
+
+/*main清单*/
+.main{
+    width: 1198px;
+    height:auto;
+    border:1px solid #cfcfcf;
+    margin: 35px auto 52px
+}
+.main-header{
+    width:1198px;
+    height:44px;
+    line-height: 44px;
+}
+.main-header input[name='chk']{
+    margin-left:25px;
+    vertical-align:middle;
+}
+.main-header .goods{
+    margin:0 160px 0 190px;
+}
+.main-header .value{
+    margin:0 104px 0 135px;
+}
+.main-header .money{
+    margin:0 60px 0 119px;
+}
+
+.main ul{
+    width:1198px;
+    height: auto;
+    border-top:1px solid #cfcfcf;
+    border-bottom:1px solid #cfcfcf;
+    font-size:14px;
+}
+.main ul li{
+    height:162px;
+    border-top:1px dotted #cfcfcf;
+}
+.main ul li:first-child{
+    border-top:none;
+}
+.main ul li span{
+    display: inline-block;
+}
+.main ul li input[name='chk']{
+    margin-left:25px;
+    margin-top:70px;
+}
+.main ul li .image{
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align:center;
+    margin-left:15px;
+    margin-right: 22px;
+    margin-top:22px;
+    border:1px solid #cfcfcf;
+}
+.main ul li .msg{
+    width: 200px;
+    margin-top:60px;
+}
+.main ul li .choose{
+    width: 82px;
+    margin-top:60px;
+    margin-left:62px;
+    margin-right: 126px;
+}
+.main ul li .val{
+    line-height: 24px;
+    margin-top:56px;
+}
+.main ul li .date{
+    width:75px;
+    height: 23px;
+    line-height: 23px;
+    border:1px solid #e5e5e5;
+    background: #f0f0f0;
+    margin-top:63px;
+    margin-left:114px;
+    margin-right:103px;
+    position: relative;
+}
+.main ul li .date i,.main ul li .date strong{
+    width: 17px;
+    height:23px;
+    text-align: center;
+    cursor:pointer;
+}
+.main ul li .date em{
+    display: inline-block;
+    width: 39px;
+    height: 23px;
+    background: #fff;
+    text-align: center;
+    border:1px solid #cfcfcf;
+    position: absolute;
+    top:-1px;
+    left:17px;
+
+
+}
+.main ul li .mon{
+    margin-top:70px;
+}
+.main ul li .del{
+    margin-top:70px;
+    margin-left: 84px;
+}
+.main ul li s{
+    color:#e01135;
+}
+.main-footer{
+    background: #e5e5e5;
+    height: 62px;
+    line-height: 62px;
+}
+.main-footer-left input[name='chk']{
+    margin-left:25px;
+    vertical-align: middle;
+}
+.main-footer-left label{
+    margin: 0 37px 0 11px;
+}
+.main-footer-right s{
+    color:#e01135;
+    padding:0 6px;
+}
+.main-footer-right .cost s{
+    font-size:24px;
+}
+.main-footer-right .cost{
+    margin: 0 35px 0 42px;
+}
+.main-footer-right button{
+    width: 100px;
+    height: 36px;
+    border:none;
+    background: #e01135;
+    font:24px '微软雅黑';
+    color:#fff;
+    margin-right: 36px;
+}
+
+
+

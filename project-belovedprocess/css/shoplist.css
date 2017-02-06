@@ -1,0 +1,439 @@
+
+/*logo*/
+.logo{
+    height:110px;
+}
+.logo .beloved{
+    margin-top:23px;
+    margin-left:2px;
+}
+.logo .box{
+    width:666px;
+    height:110px;
+}
+.logo .box a{
+    color:#8e8e8e;
+}
+.logo .box .search{
+    width:442px;
+    height:36px;
+    border:1px solid #dfdfdf;
+    margin-top:45px;
+}
+.box .search a{
+    display: inline-block;
+    width: 51px;
+    padding:0 0 0 11px;
+    height:36px;
+    line-height: 36px;
+    font-size: 13px; 
+    background: url(../images/shoplist/倒三角.png) no-repeat 45px center;   
+    vertical-align: middle;
+}
+.box .search input,.box .search button{
+    height: 36px;
+    border:none;
+    background: none;
+    vertical-align: middle;
+}
+.box .search input{
+    width:313px;
+    line-height: 36px;
+    margin:0 -5px 0 -4px;
+    border-left:1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+}
+.box .search button{
+    width: 65px;
+}
+.box .owner{
+    width:176px;
+    height:36px;
+    line-height: 36px;
+    border:1px solid #dfdfdf;
+    margin-right:8px;
+    margin-top:45px;
+    padding:0 0 0 16px;
+    position: relative;
+}
+.box .owner .message{
+    position: absolute;
+    top:-8px;
+    right: 26px;
+}
+.box .owner span{
+    margin:0 13px 0 15px;
+    color:#cccccc;
+}
+.box .owner a{
+    padding-right:17px;
+    background:url(../images/shoplist/倒三角.png) no-repeat right center;
+}
+/*nav*/
+.nav{
+    height:41px;
+    background-color:#645858;
+}
+.nav ul li{
+    width:116px;
+    height: 41px;
+    line-height:41px;
+    border-right:1px solid #6d6261;
+    text-align:center;
+    float:left;
+}
+.nav ul li a{
+    display: inline-block;
+    width: 116px;
+    height: 41px;
+    font-size: 15px;
+    color:#ffffff;
+}
+/*nowposition*/
+.nowposition{
+    height:22px;
+    margin-top:22px;
+    margin-bottom:13px;
+}
+.nowposition ul li{
+    height:22px;
+    line-height: 22px;
+    float:left;
+}
+.nowposition ul li:first-child{
+    color:#959595;
+}
+.nowposition ul li i{
+    display: inline-block;
+    width: 22px;
+    height:22px;
+    text-align:center;
+}
+.nowposition ul .lafei span{
+    display: inline-block;
+    width: 83px;
+    height: 20px;
+    padding-left:7px;
+    border: 1px dashed #e01135;
+}
+.nowposition ul .lafei span em{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-left: 3px;
+    cursor:pointer;
+    color:#e01135;
+}
+.nowposition ul .input{
+    width:150px;
+    height:20px;
+    border:1px solid #e5e5e5;
+}
+.nowposition ul .input input{
+    width: 135px;
+    height:20px;
+    line-height: 20px;
+    border-width:0px; 
+    background: none;  
+}
+.nowposition ul .input button{
+    width: 15px;
+    height:20px;
+    background: none;
+    border:none;
+}
+.nowposition p strong{
+    color:#e01135;
+    font-weight: bold;
+}
+/*menu*/
+.menu ol{
+    border:1px solid #d1d1d1;
+}
+.menu ol li{
+    height:38px;
+    line-height:38px;
+    width:auto;
+    border-top:1px solid #d1d1d1;
+}
+.menu ol li:first-child{
+    border-top:none;
+}
+.menu ol li span{
+    display: inline-block;
+    width: 104px;
+    height:38px;
+    margin-right:24px;
+    text-align:center;
+    background-color:#f1f1f1;
+}
+.menu ol li a{
+    color:#5f5e5e;
+    margin-right:14px;
+}
+.menu ol li #more{
+    color: #a12727;
+}
+/*morechoose*/
+.morechoose{
+    height:25px;
+    text-align:right;
+    margin-bottom: 20px;
+}
+.morechoose span{
+    display: inline-block;
+    background-color: #dcdcdc;
+    width:72px;
+    padding-left:10px;
+    height: 25px;
+    line-height:25px;
+    text-align:left;
+}
+.morechoose span i{
+    display: inline-block;
+    width: 23px;
+    height: 25px;
+    text-align: center;
+}
+/*allgoods*/
+.allgoods{
+    height:30px;
+}
+.allgoods h1{
+    width:105px;
+    height:30px;
+    line-height: 30px;
+    color:#fff;
+    text-align: center;
+    background-color:#e01135;
+}
+.allgoods h2{
+    widows: auto;
+    height:22px;
+    padding-top:8px;
+}
+.allgoods h2 span{
+    display: inline-block;
+    width:49px;
+    padding-left:5px;
+    height:16px;
+    border:1px solid #c9c9c9;
+}
+.allgoods h2 span s{
+    display: inline-block;
+    width: 9px;
+    padding-left: 4px;
+    height: 16px;
+    line-height: 16px;
+}
+.allgoods h2 em{
+    width:16px;
+    height:16px;
+    border:1px solid #c9c9c9;
+    margin-left: 13px;
+    margin-right:5px;
+}
+/*tags*/
+.tags{
+    height:34px;
+    background-color: #f3f3f3;
+    border:1px solid #cccccc;
+    border-top:2px solid #e01135;
+    margin-bottom:26px;
+}
+.tags a{
+    display: inline-block;
+    width:48px;
+    padding-right:35px;
+    height:34px;
+    line-height: 34px;
+    text-align:right;
+    border-right:1px solid #ccc;
+    margin-right:-3px;
+}
+.tags #a1{
+    color:#a10102;
+    background:url(../images/shoplist/箭头.png) no-repeat 63px 12px;
+}
+.tags #a2,.tags #a3,.tags #a4{
+    color:#656565;
+    background:url(../images/shoplist/箭头.png) no-repeat -21px 12px;
+}
+/*picture*/
+.picture ul{
+    height:336px;
+    margin-bottom:20px; 
+}
+.picture li{
+    float:left;
+    margin-left:32px;
+    position: relative;
+}
+.picture li:first-child{
+    margin-left:0;
+}
+.picture ul li h1{
+    width: 32px;
+    height:24px;
+    padding-top:8px;
+    color:#fff;
+    text-align:center;
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+.picture ul .li1 h1,.picture ul .li2 h1{
+    background: url(../images/shoplist/新品.png) no-repeat;
+}
+.picture ul .li3 h1{
+    background: url(../images/shoplist/热卖.png) no-repeat;
+}
+.picture ul .li4 h1{
+    background: url(../images/shoplist/打折.png) no-repeat;
+}
+.picture ul li .write{
+    width:276px;
+    height:76px;
+    position: absolute;
+    bottom:3px;
+    left:0px;
+}
+.picture ul li .write h2{
+    width: 276px;
+    height:20px;
+    margin: 11px 0 16px 0;
+    position: relative;
+}
+.picture ul li .write h2 del{
+    color:#000;
+    position: absolute;
+    bottom: -4px;
+    left:98px;
+}
+.picture ul li .write h2 #free{
+   text-decoration: none;
+}
+
+.picture ul li .write h2 s{
+    margin-left: 14px;
+    font-size:16px;
+    color:#000;
+}
+.picture ul li .write h2 em{
+    font-size:24px;
+    color:#000;
+}
+.picture ul li .write h2 strong{
+    color:#d96176;
+    margin-left: 90px;
+}
+.picture ul li .write h3{
+    padding-left:14px;
+}
+
+.picture ul .li2 div{
+    background-color:#eeeeee;
+    width:274px;
+    height:75px;
+    bottom:4px;
+    left:1px;
+}
+.picture ul .li2 h4{
+    width: 274px;
+    height: 30px;
+    background-color: pink;
+    position: absolute;
+    bottom:79px;
+    left:1px;
+}
+.picture ul .li2 h4 a{
+    display: inline-block;
+    width:136px;
+    line-height: 30px;
+    color:#fff;
+    font-size:14px;
+    text-align: center;
+    background-color: #ff9c00;
+}
+.picture ul .li2 h4 a:first-child{
+    background-color: #f23e64;
+    margin-right:-1px;
+    *margin-right:-4px;
+}
+/*downstags*/
+.downtags{
+    text-align: center;
+    margin-top:56px;
+    margin-bottom:28px;
+    color:#b8b8b8;
+    font-size: 14px;
+}
+/*footer*/
+.footerw{
+    width: 100%;
+    background-color: #e01135;
+}
+.footer{
+    width:692px;
+    height:38px;
+    padding:11px 246px;
+    margin:0 auto;
+    background-color: #e01135;
+}
+.footer-left{
+    height: 36px;
+    width:442px;
+    background-color:#fff;
+    border:1px solid #dfdfdf;
+}
+.footer-left input{
+    border-width: 0;
+    background: none;
+    width: 376px;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: text-bottom;
+}
+.footer-left button{
+    border-width: 0;
+    background: none;
+    width:65px;
+    height: 36px;
+    border-left:1px solid #dfdfdf;
+    margin-left: -2px;
+    *margin-left: 1px;
+    background: url(../images/shoplist/扩大镜.png) no-repeat center;
+    cursor: pointer;
+    vertical-align: text-bottom;
+}
+.footer-right{
+    width:242px;
+    height:36px;
+    border:1px solid #dfdfdf;
+    background-color: #fff;
+    font-size:16px;
+    position: relative;
+}
+.footer-right a:first-child{
+    display: inline-block;
+    padding-left:46px;
+    height: 36px;
+    line-height:36px;
+    background: url(../images/shoplist/购物车.png) no-repeat 10px center;
+}
+.footer-right .msg{
+    position: absolute;
+    top:-6px;
+    left:92px;
+}
+.footer-right span{
+    margin: 0 5px 0;
+}
+.footer-right a{
+    color:#fb890e;
+}
+.footer-right a i{
+    color:#888888;
+    margin-right:5px;
+}

@@ -1,0 +1,322 @@
+/*第二部分 LOGO*/
+.logo{
+    height:110px;
+}
+.logo .beloved{
+    margin-top:23px;
+    margin-left:2px;
+}
+.logo .box{
+    width:666px;
+    height:110px;
+}
+.logo .box a{
+    color:#8e8e8e;
+}
+.logo .box .search{
+    width:442px;
+    height:36px;
+    border:1px solid #dfdfdf;
+    margin-top:45px;
+    position: relative;
+}
+.box .search a{
+    display: inline-block;
+    width: 51px;
+    padding:0 0 0 11px;
+    height:36px;
+    line-height: 36px;
+    font-size: 13px; 
+    background: url(../images/addshop/倒三角.png) no-repeat 45px center;   
+    vertical-align: middle;
+}
+.box .search input,.box .search button{
+    height: 36px;
+    border:none;
+    background: none;
+    vertical-align: middle;
+}
+.box .search input{
+    width:313px;
+    line-height: 36px;
+    margin:0 -5px 0 -4px;
+    border-left:1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+}
+.box .search button{
+    width: 65px;
+}
+.box .search span{
+    font-size:12px;
+    font-family: "微软雅黑";
+    position: absolute;
+    top:10px;
+    right:70px;
+}
+.box .owner{
+    width:176px;
+    height:36px;
+    line-height: 36px;
+    border:1px solid #dfdfdf;
+    margin-right:8px;
+    margin-top:45px;
+    padding:0 0 0 16px;
+    position: relative;
+}
+.box .owner .msg{
+    position: absolute;
+    top:-15px;
+    right: 26px;
+}
+.box .owner span{
+    margin:0 13px 0 15px;
+    color:#cccccc;
+}
+.box .owner a{
+    padding-right:17px;
+    background:url(../images/addshop/倒三角.png) no-repeat right center;
+}
+/*第三部分 导航栏*/
+.nav{
+    height:40px;
+    background-color:#645858;
+}
+.nav ul{
+    padding:0px;
+}
+.nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    *display: inline;
+    
+}
+.nav ul li #a1{
+    background-color: #e01135;
+    letter-spacing:0px;
+}
+.nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    display: inline-block;
+    line-height:40px;
+    width:90px;
+    margin-right:-7px;
+    border-right:1px solid #6d6261;
+    font-family: "微软雅黑";
+    font-size:15px;
+    letter-spacing:30px;
+    padding-left:30px;
+}
+.nav ul li a:hover{
+    color:#fff !important;
+    background: #e01135;
+}
+
+/*第四部分 主体*/
+.message{
+    height:275px;
+    margin-top:35px;
+}
+.message .picture{
+    width:198px;
+    height:198px;
+    border:1px solid #e2e2e2;
+    line-height: 198px;
+    text-align:center;
+}
+.message .write{
+    margin-left:39px;
+}
+.message h1{
+    font-size:14px;
+}
+.message .write ul{
+    overflow: hidden;
+}
+.message .write ul li{
+    float:left;
+}
+.message .write .auto{
+    margin-top:12px;
+    margin-bottom: 12px;
+}
+.message .write .auto li{
+    width: 140px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #eeeeee;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.message .write .auto li s{
+    color:#e01135;
+}
+.message .write .list ul{
+    margin-bottom: 10px;
+}
+.message .write .list ul li{
+    width:190px;
+    height: 30px;
+    padding:6px 9px;
+    border:1px solid #d6d6d6;
+    margin-right: 10px;
+}
+.message .write .list ul li h5 span{
+    margin-right: 70px;
+}
+.message .write .list ul li h6{
+    color:#e01135;
+}
+.message .settlement{
+    width:210px;
+}
+.message .settlement h2{
+    width: 210px;
+    height: 72px;
+    line-height: 72px;
+    text-align:right;
+}
+.message .settlement h2 s,.message .settlement h2 em{
+    color:#e01135;
+}
+.message .settlement h2 s{
+    font-size: 16px;
+}
+.message .settlement h2 em{
+    font-size: 32px;
+}
+.message .settlement h3,.message .settlement h4{
+    font-size: 20px;
+    text-align: center;
+    cursor:pointer;
+}
+.message .settlement h3{
+    width: 210px;
+    height: 44px;
+    margin-bottom: 10px;
+    background: #fe7f41;
+    color:#fff;
+    line-height: 44px;
+}
+.message .settlement h4{
+    width: 208px;
+    height: 42px;
+    border:1px solid #fca44a;
+    color:#fe7f41;
+    line-height: 42px;
+}
+/*tag*/
+.tag{
+    height: 40px;
+    background:#fe7f41;
+    line-height: 40px;
+}
+.tag h3,.tag h4{
+    color:#fff;
+    font-size:14px;
+}
+.tag h3{
+    padding-left:14px;
+}
+.tag h4{
+    padding-right: 17px;
+}
+
+/*列表清单*/
+.menu ul{
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.menu .ul2{
+    margin-bottom: 56px;
+}
+.menu ul li{
+    width:222px;
+    height:324px;
+    border:1px solid #e2e2e2;
+    float: left;
+    margin-left: 20px;
+}
+.menu ul li:first-child{
+    margin-left:0;
+}
+.menu ul li .pic{
+    width: auto;
+    height:250px;
+    overflow: hidden;
+    position: relative;
+    cursor:pointer;
+}
+.menu .pic .tsg{
+    width: 32px;
+    height:33px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top:-1px;
+    right: -1px;
+    color:#fff;
+    background-repeat: none;
+}
+.green{
+    background-image: url(../images/addshop/green.png)
+}
+.red{
+    background-image: url(../images/addshop/red.png)
+}
+.orange{
+    background-image: url(../images/addshop/orange.png)
+}
+
+.menu .pic .add{
+    width: 222px;
+    height:30px;
+    border-bottom: 1px solid #e2e2e2;
+    position: absolute;
+    bottom:-1px;
+    left: 0px;
+    /*display: none;*/
+} 
+.menu .pic .add dl dt,.menu .pic .add dl dd{
+    width: 110px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    font-size:14px;
+    color:#fff;
+    background-color:#ff9c00;
+}
+.menu .pic .add dl dt{
+    background-color: #f23e64;
+}
+.menu ul li .btext{
+    width: auto;
+    height:74px;
+}
+.menu ul li h1,.menu ul li h6{
+    padding:7px;
+}
+.menu ul li h1{
+    padding-bottom:0px;
+}
+.menu ul li h1 i{
+    font-size:16px;
+    color: #000;
+}
+.menu ul li h1 em{
+    font-size:24px;
+    color: #000;
+}
+
+.menu ul li h1 s{
+    padding-top:8px;
+    zoom:1;
+    color:#d96176;
+}
+
+
+
+
+

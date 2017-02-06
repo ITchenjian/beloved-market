@@ -1,0 +1,197 @@
+/*第二部分 LOGO*/
+.logo{
+    height:110px;
+}
+.logo .beloved{
+    margin-top:23px;
+    margin-left:2px;
+}
+.logo h1{
+    font-size: 32px;
+    color:#e01135;
+    margin-top:36px;
+    margin-left:18px;
+}
+
+/*第三部分 地址*/
+    .address h1{
+        height:40px;
+        line-height: 40px;
+        font-size: 14px;
+        color:#474747;
+        font-weight: bold;
+    }
+    .address ul{
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    .address ul li{
+        width: 228px;
+        height: 98px;
+        border:1px solid #cfcfcf;
+        list-style: none;
+        float:left;
+        margin-left: 12px;
+    }
+    .address ul li:first-child{
+        margin-left:1px;
+    }
+    .address ul li h3{
+        width: 204px;
+        height:32px;
+        line-height: 32px;
+        border-bottom: 1px dotted #cfcfcf;
+        margin: 0 auto;
+    }
+    .address ul li p{
+        width: 204px;
+        margin: 0 auto;
+        padding:4px 0 2px;
+    }
+    .address ul li h4{
+        width: 204px;
+        margin: 0 auto;
+    }
+    .address ul li h4 s{
+        color: #cf4e4e;
+        margin-right: 100px;
+    }
+
+/*return*/
+.return{
+    height:44px;
+}
+.return span{
+    display: block;
+    width: 200px;
+    line-height:44px;
+    font-weight: 14px;
+    text-align: center;
+    background-color:#f2f2f2;
+    font-size: 14px;
+    cursor:pointer;
+}
+/*列表清单*/
+.main{
+    width: 1198px;
+    height:auto;
+    border:1px solid #cfcfcf;
+    margin: 35px auto 31px
+}
+.main-header{
+    width:1198px;
+    height:44px;
+    line-height: 44px;
+}
+.main-header .goods{
+    margin:0 152px 0 262px;
+}
+.main-header .value{
+    margin:0 114px 0 127px;
+}
+.main-header .money{
+    margin:0 72px 0 111px;
+}
+
+.main ul{
+    width:1198px;
+    height: 279px;
+    border-top:1px solid #cfcfcf;
+    border-bottom:1px solid #cfcfcf;
+    font-size:14px;
+}
+.main ul li{
+    height:138px;
+}
+.main ul li span{
+    display: inline-block;
+}
+.main ul li .image{
+    width: 108px;
+    height: 108px;
+    line-height: 108px;
+    text-align:center;
+    margin-left:33px;
+    margin-right: 51px;
+    margin-top:20px;
+    border:1px solid #cfcfcf;
+}
+.main ul li .msg{
+    width: 200px;
+    margin-top:55px;
+    font-size:14px;
+}
+.main ul li .choose{
+    width: 84px;
+    margin-top:55px;
+    margin-left:63px;
+    margin-right: 127px;
+}
+.main ul li .choose i{
+    font-size: 14px;
+}
+.main ul li .val{
+    line-height: 24px;
+    margin-top:56px;
+}
+.main ul li .date{
+    width:40px;
+    margin-top:66px;
+    margin-left:114px;
+    margin-right:103px;
+    padding: 0 17px;
+}
+.main ul li .date em{
+    display: inline-block;
+    width: 39px;
+    text-align: center;
+}
+.main ul li .mon{
+    margin-top:66px;
+}
+.main ul li .del{
+    margin-top:66px;
+    margin-left: 109px;
+}
+.main ul li s{
+    color:#e01135;
+}
+.main ul .li2{
+    border-top:1px dotted #cfcfcf;
+}
+.main-footer{
+    background: #e5e5e5;
+    height: 52px;
+    line-height: 52px;
+}
+.main-footer-left input[name='text']{
+    width:445px;
+    height:32px;
+    border:1px solid #cfcfcf;
+    margin-left:16px;
+
+    
+}
+.main-footer-right s{
+    color:#e01135;
+    padding:0 6px;
+}
+.main-footer-right .cost s{
+    font-size:24px;
+}
+.main-footer-right .cost{
+    margin: 0 35px 0 42px;
+}
+.main-footer-right button{
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    border:none;
+    background: #e01135;
+    font-size:24px;
+    color:#fff;
+    margin-right: 36px;
+}
+
+
+

@@ -1,0 +1,351 @@
+/*第二部分 LOGO*/
+.logo{
+    height:110px;
+}
+.logo .beloved{
+    margin-top:23px;
+    margin-left:2px;
+}
+.logo .box{
+    width:666px;
+    height:110px;
+}
+.logo .box a{
+    color:#8e8e8e;
+}
+.logo .box .search{
+    width:442px;
+    height:36px;
+    border:1px solid #dfdfdf;
+    margin-top:45px;
+    position: relative;
+}
+.box .search a{
+    display: inline-block;
+    width: 51px;
+    padding:0 0 0 11px;
+    height:36px;
+    line-height: 36px;
+    font-size: 13px; 
+    background: url(../images/editaddress/倒三角.png) no-repeat 45px center;   
+    vertical-align: middle;
+}
+.box .search input,.box .search button{
+    height: 36px;
+    border:none;
+    background: none;
+    vertical-align: middle;
+}
+.box .search input{
+    width:313px;
+    line-height: 36px;
+    margin:0 -5px 0 -4px;
+    border-left:1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+}
+.box .search button{
+    width: 65px;
+}
+.box .search span{
+    font-size:12px;
+    font-family: "微软雅黑";
+    position: absolute;
+    top:10px;
+    right:70px;
+}
+.box .owner{
+    width:176px;
+    height:36px;
+    line-height: 36px;
+    border:1px solid #dfdfdf;
+    margin-right:8px;
+    margin-top:45px;
+    padding:0 0 0 16px;
+    position: relative;
+}
+.box .owner .message{
+    position: absolute;
+    top:-15px;
+    right: 26px;
+}
+.box .owner span{
+    margin:0 13px 0 15px;
+    color:#cccccc;
+}
+.box .owner a{
+    padding-right:17px;
+    background:url(../images/editaddress/倒三角.png) no-repeat right center;
+}
+/*第三部分 导航栏*/
+.nav{
+    height:40px;
+    background-color:#645858;
+}
+.nav ul{
+    padding:0px;
+}
+.nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    *display: inline;
+    
+}
+.nav ul li #a1{
+    background-color: #e01135;
+    letter-spacing:0px;
+}
+.nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    display: inline-block;
+    line-height:40px;
+    width:90px;
+    margin-right:-7px;
+    border-right:1px solid #6d6261;
+    font-family: "微软雅黑";
+    font-size:15px;
+    letter-spacing:30px;
+    padding-left:30px;
+}
+.nav ul li a:hover{
+    color:#fff !important;
+    background: #e01135;
+}
+
+/*第四部分 主体*/
+
+.main{
+    width:1198px;
+    height:913px;
+    border:1px solid #e4e4e4;
+    margin-top:25px;
+    margin-bottom:38px;
+}
+/*4.1 侧栏*/
+.main-sidebar{
+    width:198px;
+    height:913px;
+    border-right:1px solid #e4e4e4;
+}
+.main-sidebar-photo{
+    width:181px;
+    height:183px;
+    border-bottom:1px dashed #e4e4e4;
+    margin-top:14px;
+    margin-left: 10px;
+    position: relative;
+}
+.main-sidebar-photo #img1{
+    position:absolute;
+    top:2px;
+    left:23px;
+    z-index: 0;
+}
+.main-sidebar-photo #img2{
+    position:absolute;
+    top:0px;
+    left:17px;
+    z-index: 1;
+}
+.main-sidebar-photo #img3{
+    position:absolute;
+    top:0px;
+    left:19px;
+    z-index: 2;
+}
+.main-sidebar-photo p{
+    width:155px;
+    line-height: 18px;
+    margin-left:13px;
+    position: absolute;
+    bottom:20px;
+    font-size:14px;
+    color:#5d5d5d;
+    background:url(../images/editaddress/手机.png) no-repeat 118px 1px;
+}
+.main-sidebar-photo p img{
+    position: absolute;
+    right: 0px;
+    top:2px;
+}
+.main-sidebar h3{
+    color:#5d5d5d;
+    font-size:18px;
+    margin-left: 23px;
+    line-height:50px;
+}
+.main-sidebar-ul1{
+    width:181px;
+    height:203px;
+    margin-left:10px;
+    border-top:1px dashed #e4e4e4;;
+    border-bottom:1px dashed #e4e4e4;
+}
+.main-sidebar-ul1 li{
+    margin-left:13px;
+    line-height:30px;  
+}
+.main-sidebar-ul1 .li1{
+    margin-top:15px;
+}
+.main-sidebar-ul1 li a{
+    font-size:14px;
+    color:#5d5d5d;
+}
+.main-sidebar-ul1 li #a1{
+    font-size:18px;
+}
+.main-sidebar-ul1 li #a2{
+    color:#e01135;
+
+}
+.main-sidebar-ul2{
+    height:283px;
+    border-top:none;
+    border-bottom:1px dashed #e4e4e4;  
+}
+
+/*4.2 详细内容部分*/
+.main-content{
+    width:999px;
+    height:913px;
+}
+.main-content h2{
+    width:974px;
+    line-height:58px;
+    border-bottom:1px solid #e4e4e4;
+    font-size:24px;
+    color:#5d5d5d;
+    padding-left:25px;
+}
+
+.main-content .addplace{
+    width:999px;
+    height:498px;
+    padding-top:27px;
+}
+.main-content .addplace h6{
+    padding-left: 50px;
+    margin-bottom: 27px;
+}
+.main-content .addplace h6 em{
+    margin-right: 24px;
+}
+.main-content .addplace em{
+    color:#e01135;
+}
+.main-content ul{
+    width:572px;
+    text-align: right; 
+}
+.main-content .addplace ul li{
+    margin-bottom: 15px;
+}
+.main-content ul li em{
+    margin-left:12px;
+}
+.main-content ul li input{
+    width:380px;
+    height:28px;
+    border:1px solid #bfbfbf;
+}
+.main-content ul li input[name='txt']{
+    width:284px;
+    margin-right: 48px;
+}
+.main-content ul li textarea{
+    width: 380px;
+    height: 88px;
+    border:1px solid #bfbfbf;
+    resize: none;
+}
+.main-content ul li button{
+    display: inline-block;
+    width: 84px;
+    height: 30px;
+    border:1px solid #bfbfbf;
+    margin-right: 10px;
+    background: #fff;
+}
+.main-content ul li span{
+    margin-right:23px;
+}
+.main-content .addplace ul #textarea textarea{
+    vertical-align: text-top;
+}
+.addplace h3{
+    margin:20px 0 24px 142px;
+}
+.addplace h3 input{
+    width: 15px;
+    height: 15px;
+    vertical-align: text-top;
+}
+.addplace h4{
+    margin-left:142px;
+}
+.addplace h4 button{
+    width: 98px;
+    height:34px;
+    background: #ff6c00;
+    border:none;
+    color:#fff;
+}
+.namemenu{
+    width: 948px;
+    height: 294px;
+    border:1px solid #ffeeca;
+    margin-left:30px;
+}
+.namemenu dl dt{
+    width: 948px;
+    height: 34px;
+    line-height:34px;
+    background-color: #fff8e9;
+}
+.namemenu dl dd{
+    width: 948px;
+    height: 65px;
+    border-bottom: 1px solid #ededed;
+}
+.namemenu dl .last{
+    border:none;
+}
+.namemenu dl span{
+    text-align:center;
+    display: inline-block;
+}
+.namemenu dl dd span{
+    text-align:left;
+    vertical-align: text-top;
+    padding-top: 19px;
+}
+.namemenu dl .span1{
+    width: 102px;
+    text-align:center;
+}
+.namemenu dl .span2{
+    width: 119px;
+}
+.namemenu dl .span3{
+    width: 233px;
+    margin:0 57px 0 39px;
+}
+.namemenu dl .span4{
+    width: 42px;
+}
+.namemenu dl .span5{
+    width: 78px;
+    margin:0 86px 0 67px;
+}
+.namemenu dl .span6{
+    width: 65px;
+}
+.namemenu dl span i,.namemenu dl span s{
+    color:#ff6c00;
+    cursor: pointer;
+}
+
+
+
+
